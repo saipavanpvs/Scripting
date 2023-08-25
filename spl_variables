@@ -2,3 +2,5 @@
 
 #$0--prints the name of the script executing
 echo $0
+#$1 --prints the 
+echo $1
