@@ -1,1 +1,6 @@
 #!bin/bash
+
+a=10;
+PVS=LAHARI;
+echo $PVS
+echo "value of a: ${a}"
