@@ -1,2 +1,4 @@
 #!bin/bash
 
+#$0--prints the name of the script executing
+$0
