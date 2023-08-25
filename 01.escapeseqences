@@ -1,0 +1,12 @@
+#!bin/bash
+
+##ESCAPE SEQUENCES
+#/n -new line
+#/t -tab space
+
+echo Line 1
+echo Line 2
+echo -e "SAI \n PAVAN"
+## -e enables the escape sequences
+
+echo -e " P \t V \s"
