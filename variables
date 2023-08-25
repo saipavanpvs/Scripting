@@ -1,6 +1,11 @@
 #!bin/bash
 
-a=10;
-PVS=LAHARI;
-echo $PVS
+a=10; 
 echo "value of a: ${a}"
+
+#value for variables can also be passed through command line
+#but that value won't be passed to the scripts, since scripts execute in the heap memory , in order to pass the value 
+#to a variable in a scrip use export 
+
+#export a=10; from the command line
+DATE=date +%D;
