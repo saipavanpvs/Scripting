@@ -9,4 +9,4 @@ echo Line 2
 echo -e "SAI\nPAVAN"
 ## -e enables the escape sequences
 
-echo -e " P \t V \s"
+echo -e " P\tV\ts"
