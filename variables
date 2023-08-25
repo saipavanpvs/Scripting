@@ -12,3 +12,4 @@ DATE=date +%D;
 
 b=50;
 echo $b;
+echo $c;
