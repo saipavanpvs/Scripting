@@ -9,3 +9,6 @@ echo "value of a: ${a}"
 
 #export a=10; from the command line
 DATE=date +%D;
+
+b=50;
+echo $b;
