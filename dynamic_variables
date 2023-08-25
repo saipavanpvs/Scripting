@@ -2,4 +2,4 @@
 DATE="$(date +%F)"
 echo $DATE;
 #in order to pass a command , use parenthesis , since data, who are command line commands, here parenthesis are used
-echo "total number of active sessions: "$(who| wc -l)"
+echo "total number of active sessions: "$(who| wc -l)""
