@@ -15,4 +15,6 @@ ACTION=$1
  echo "stopping the case";;
  restart)
  echo "restarting the case";;
+ *)
+ eco "enter valid "
  esac
