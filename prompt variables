@@ -1,0 +1,6 @@
+#!bin/bash
+read -p "enter the name" :name
+echo $name
+read -p " enter the age" :age
+echo $age
+read -p "press any key to exit"
