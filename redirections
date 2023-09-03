@@ -1,0 +1,10 @@
+#!bin/bash
+
+> #output redirection
+>> #appends the latest output to the latest content
+
+#outputs
+
+# 1) Standard output  > or >> or 1>
+# 2) Standard error 2> or 2>>
+# 3) standard error and output &> or &>>
