@@ -25,4 +25,6 @@ ACTION=$1
  echo "enter valid "
  exit 3
  ;;
+
+ echo $?
  esac
