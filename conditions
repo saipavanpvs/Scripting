@@ -32,4 +32,4 @@ ACTION=$1
 
  esac
 
-echo $?
+echo $#
