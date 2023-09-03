@@ -7,6 +7,9 @@
 # opt2) commands 2 ;;
 #esac
 
+
+a=10
+echo $a
 ACTION=$1
  case $ACTION in 
  start)
@@ -29,4 +32,4 @@ ACTION=$1
 
  esac
 
-echo a=10
+echo $?
