@@ -28,4 +28,5 @@ ACTION=$1
 
 
  esac
-echo $?
+
+echo a=10
