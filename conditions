@@ -7,7 +7,7 @@
 # opt2) commands 2 ;;
 #esac
 
-ACTION=start
+ACTION=$1
  case $ACTION in 
  start)
  echo "starting the case";;
