@@ -16,5 +16,5 @@ ACTION=$1
  restart)
  echo "restarting the case";;
  *)
- eco "enter valid "
+ echo "enter valid ";;
  esac
