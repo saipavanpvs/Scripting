@@ -26,5 +26,6 @@ ACTION=$1
  exit 3
  ;;
 
- echo $?
+
  esac
+  echo $?
