@@ -1,0 +1,26 @@
+#!bin/bash
+
+<<comment
+
+if [expression]; then
+condition
+fi
+
+if [expression];then
+condition 1
+else
+condtion 2
+fi
+
+if[expression];then
+condition 1
+elif
+condition 2
+else
+condition 3
+fi
+comment
+
+
+ACTION=$1
+if [$ACTION=10]
