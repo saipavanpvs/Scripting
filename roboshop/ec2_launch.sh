@@ -1,5 +1,6 @@
 #!bin/bash
 
+COMPONENT=$1
 if [-z $1] ; then
 echo "Enter the component"
 exit 1
@@ -9,7 +10,7 @@ fi
 AMI_ID="ami-0e9fc91dd15aae68b"
 SC_ID="sg-09bbbc1d1d1aac5ee"
 Instance=t3.micro
-COMPONENT=$1
+
 
 
 
