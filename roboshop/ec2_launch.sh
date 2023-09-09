@@ -1,6 +1,6 @@
 #!bin/bash
 
-AMI_ID="ami-0c1d144c8fdd8d690"
+AMI_ID="ami-0e9fc91dd15aae68b"
 SC_ID="sg-09bbbc1d1d1aac5ee"
 Instance=t3.micro
 COMPONENT=$1
