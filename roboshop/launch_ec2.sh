@@ -11,7 +11,7 @@ if [ -z $1 ]  ; then
 fi 
 
 # AMI_ID="ami-0c1d144c8fdd8d690"
-AMI_ID="$(aws ec2 describe-images --filters "Name=name,Values=DevOps-LabImage-CentOS7"| jq ".Images[].ImageId" | sed -e 's/"//g')" 
+AMI_ID="$(aws ec2 describe-images --filters "Name=name,Values=DevOps-LabImage-CentOS7-Backup"| jq ".Images[].ImageId" | sed -e 's/"//g')" 
 SG_ID="$(aws ec2 describe-security-groups  --filters Name=group-name,Values=b55-allow-all | jq '.SecurityGroups[].GroupId' | sed -e 's/"//g')"       # b54-allow-all security group id
 
 create_ec2() {
