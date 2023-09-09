@@ -38,8 +38,3 @@ create_ec2() {
 else 
         create_ec2 
 fi 
-
-
-
-
-
