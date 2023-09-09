@@ -2,6 +2,7 @@
 
 if [-z $1] ; then
 echo "Enter the component"
+exit 1
 fi
 
 
