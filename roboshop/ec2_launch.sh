@@ -1,10 +1,11 @@
 #!bin/bash
 
 COMPONENT=$1
-if [-z $1] ; then
-echo "Enter the component"
-exit 1
-fi
+if [ -z $1 ] || [ -z $2 ]  ; then 
+    echo -e "\e[31m COMPONENT NAME IS NEEDED \e[0m \n \t \t"
+    echo -e "\e[35m Ex Usage \e[0m \n\t\t $ bash launch_ec2.sh shipping"
+    exit 1
+fi 
 
 
 AMI_ID="ami-0e9fc91dd15aae68b"
