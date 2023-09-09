@@ -1,6 +1,8 @@
 #!bin/bash
 
-COMPONENT=$1
+COMPONENT=$1 
+HOSTEDZONEID="Z09403802ZMY159GMTENK"
+INSTANCE_TYPE="t3.micro"
 if [ -z $1 ]  ; then 
    echo -e "\e[31m COMPONENT NAME IS NEEDED \e[0m \n \t \t"
     echo -e "\e[35m Ex Usage \e[0m \n\t\t $ bash launch_ec2.sh shipping"
