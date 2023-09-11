@@ -1,0 +1,10 @@
+- name: It is the first play
+  hosts: all
+  tasks:
+    - name: It prints a message
+      debug:
+        msg: Its my first msg
+
+    -name: Its also prints a message
+      debug:
+        msg: Its the second message
