@@ -4,4 +4,4 @@
     - name: It prints a message
       debug:
         msg: Its my first msg
-        msg: Its the second message
+        msg1: Its the second message
