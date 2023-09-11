@@ -1,0 +1,35 @@
+#!bin/bash
+
+#case syntax
+
+# case $c=var  in 
+# opt1)commands 1 ;;
+# opt2) commands 2 ;;
+#esac
+
+
+a=10
+echo $a
+ACTION=$1
+ case $ACTION in 
+ start)
+ echo "starting the case"
+ exit 0
+ ;;
+ stop)
+ echo "stopping the case"
+ exit 1
+ ;;
+ restart)
+ echo "restarting the case"
+ exit 2
+ ;;
+ *)
+ echo "enter valid "
+ exit 3
+ ;;
+
+
+ esac
+
+echo $#

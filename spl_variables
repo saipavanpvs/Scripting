@@ -3,5 +3,29 @@
 #$0--prints the name of the script executing
 echo $0
 #$1 --prints the 
-echo $1
+echo -e "\e[32m $1 \e[0m"
 echo $3
+echo $3
+echo $*
+
+echo $$ #prints the PID of the current running process
+echo $? #prints the exit code of the last running process
+echo $# #prints the number of arguments
+echo $* #pints the arguments used 
+echo $@ #prints the arguments uesd
+
+#or we can use double quotes 
+
+echo "$$" #prints the PID of the current running process
+echo "$?" #prints the exit code of the last running process
+echo "$#" #prints the number of arguments
+echo "$*" #pints the arguments used 
+echo "$@" #prints the arguments uesd
+
+# don't use single quotes as it supress the power of spl variables
+
+echo '$$' #prints the PID of the current running process
+echo '$?' #prints the exit code of the last running process
+echo '$#' #prints the number of arguments
+echo '$*' #pints the arguments used 
+echo '$@' #prints the arguments uesd
