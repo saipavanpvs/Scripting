@@ -5,6 +5,6 @@
       debug:
         msg: Its my first msg
 
-    -name: Its also prints a message
+    - name: Its also prints a message
       debug:
         msg: Its the second message
