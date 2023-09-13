@@ -2,4 +2,4 @@
   hosts: all
   vars:
    PVS: Its a varibale
-    msg: {{PVS}}
+    msg: "{{PVS}}"
