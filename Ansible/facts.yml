@@ -1,0 +1,8 @@
+- name: Its about the facts 
+  hosts: all
+  tasks:
+    ansible.builtin.debug:
+      msg: is the value "{{"ansible_os_family"}}"
+
+
+#ansible -i inv all -e ansible_user=centos -e ansible_password=DevOps321 -m setup      
