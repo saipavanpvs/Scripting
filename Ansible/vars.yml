@@ -13,6 +13,10 @@
     num3: "3" 
   vars_files:
    external_vars.yml
+  vars_prompt:
+    - name: NAME  
+      prompt: enter chey edokati
+      private: false  # ansible by default considers everything as password
   tasks:
     - name: printing the varibale in upper
       ansible.builtin.debug:
@@ -33,4 +37,9 @@
         msg: "{{v1}}"
     - name: printing varaibles from externalfiles
       ansible.builtin.debug:
-        msg: "{{variable1}},{{variable1}}"
+        msg: "{{variable1}},{{variable2}}"
+    - name: printing prompt varaibles
+      ansible.builtin.debug:
+        msg: "{{NAME}}"
+
+        
