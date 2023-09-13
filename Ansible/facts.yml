@@ -3,7 +3,7 @@
   tasks:
     - name: Printing the facts variables
       ansible.builtin.debug:
-        msg: is the value "{{"ansible_os_family"}}"
+        msg: is the value "{{ansible_os_family}}"
 
 
 #ansible -i inv all -e ansible_user=centos -e ansible_password=DevOps321 -m setup      
