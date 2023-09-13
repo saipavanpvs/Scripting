@@ -5,4 +5,4 @@
   tasks:
     - name: printing the varibale 
       ansible.builtin.debug:
-        msg: {{PVS}}    
+        msg: "{{PVS}}"  
