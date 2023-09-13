@@ -33,4 +33,4 @@
         msg: "{{v1}}"
     - name: printing varaibles from externalfiles
       ansible.builtn.debug:
-        msg: "{{variable1}},{{variable2}}"
+        msg: "{{variable1}}"
