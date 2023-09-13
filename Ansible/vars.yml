@@ -20,13 +20,13 @@
   tasks:
     - name: printing the varibale in upper
       ansible.builtin.debug:
-        msg: "{{PVS | upper}}"
+        var.Output: "{{PVS | upper}}"
     - name: printing lin lower
       ansible.builtin.debug:
         msg: "{{PVS | lower}}"
     - name: printing the lists
       ansible.builtin.debug:
-        var: '{{list[2] }}'
+        msg: '{{list[2] }}'
     - name: Printing dictionaries
       ansible.builtin.debug:
         msg: "{{Dictionary['num1']}}"
