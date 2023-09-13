@@ -20,7 +20,7 @@
   tasks:
     - name: printing the varibale in upper
       debug:
-        var.Output: "{{PVS | upper}}"
+        msg: "{{PVS | upper}}"
     - name: printing lin lower
       ansible.builtin.debug:
         msg: "{{PVS | lower}}"
@@ -41,5 +41,7 @@
     - name: printing prompt varaibles
       ansible.builtin.debug:
         msg: "{{NAME}}"
-
+    - name: Demo on using undelated variable 
+       ansible.builtin.debug:
+         msg: Value of CLIURL is {{CLIURL}}
         
