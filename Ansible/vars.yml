@@ -24,3 +24,8 @@
     - name: Printing dictionaries
       ansible.builtin.debug:
         msg: "{{Dictionary['num1']}}"
+    - name: printing local varibale
+      vars: 
+        v1: its a local
+      ansible.builtin.debug:
+        msg: "{{v1}}"
