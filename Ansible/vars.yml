@@ -16,5 +16,5 @@
         msg: "{{PVS | lower}}"
     - name: printing the lists
       ansible.builtin.debug:
-        msg: "list[2]"
+        msg: "{{list[2]}}"
     
