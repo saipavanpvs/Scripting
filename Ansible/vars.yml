@@ -7,8 +7,12 @@
     - item2
     - item3
     - item4
+  Dictionary:
+    num1:1
+    num2:2
+    num3:3
   tasks:
-    - name: printing the varibale 
+    - name: printing the varibale in upper
       ansible.builtin.debug:
         msg: "{{PVS | upper}}"
     - name: printing lin lower
@@ -17,4 +21,6 @@
     - name: printing the lists
       ansible.builtin.debug:
         msg: '{{list[2] }}'
-    
+    - name: Printing dictionaries
+      ansible.builtin.debug:
+        msg: "{{Dictionary[num1]}}"
