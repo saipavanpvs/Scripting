@@ -12,7 +12,7 @@
     num2: "2"
     num3: "3" 
   vars_files:
-    external_vars.yml
+   external_vars.yml
   tasks:
     - name: printing the varibale in upper
       ansible.builtin.debug:
