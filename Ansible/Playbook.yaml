@@ -2,6 +2,9 @@
   hosts: all
   tasks:
     - name: It prints a message
-      debug:
+      ansible.builtin.debug:
         msg: Its my first msg
-        msg1: Its the second message
+    - name : It prints the second msg
+      ansible.builtin.debug:
+        msg: it also print a msg
+       
