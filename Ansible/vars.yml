@@ -26,7 +26,7 @@
         msg: "{{PVS | lower}}"
     - name: printing the lists
       ansible.builtin.debug:
-        msg: '{{list[2] }}'
+        var.Output: '{{list[2] }}'
     - name: Printing dictionaries
       ansible.builtin.debug:
         msg: "{{Dictionary['num1']}}"
