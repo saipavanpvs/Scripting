@@ -19,7 +19,7 @@
       private: false  # ansible by default considers everything as password
   tasks:
     - name: printing the varibale in upper
-      ansible.builtin.debug:
+      debug:
         var.Output: "{{PVS | upper}}"
     - name: printing lin lower
       ansible.builtin.debug:
