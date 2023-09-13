@@ -11,6 +11,8 @@
     num1: "1"
     num2: "2"
     num3: "3" 
+  vars_files:
+    external_vars.yml
   tasks:
     - name: printing the varibale in upper
       ansible.builtin.debug:
@@ -29,3 +31,6 @@
         v1: its a local
       ansible.builtin.debug:
         msg: "{{v1}}"
+    - name: printing varaibles from externalfiles
+      ansible.builtn.debug:
+        msg: "{{variable1}}","{{variable2}}"
