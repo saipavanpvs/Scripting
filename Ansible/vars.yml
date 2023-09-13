@@ -23,4 +23,4 @@
         msg: '{{list[2] }}'
     - name: Printing dictionaries
       ansible.builtin.debug:
-        msg: "{{Dictionary[num1]}}"
+        msg: "{{Dictionary['num1']}}"
