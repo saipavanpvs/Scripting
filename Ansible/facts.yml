@@ -4,6 +4,9 @@
     - name: Printing the facts variables
       ansible.builtin.debug:
         msg: is the value "{{ansible_os_family}}"
-
+    - name: Priting the facts variables 2
+      ansible.buitin.debug:
+        msg:value is {{ansible_mounts.inode_total}}
 
 #ansible -i inv all -e ansible_user=centos -e ansible_password=DevOps321 -m setup      
+#ansible_mounts
