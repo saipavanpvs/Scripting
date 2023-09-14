@@ -8,7 +8,7 @@
         state: present
     - name: register variable
       ansible.builtn.shell: pwgen -N1 -s 20
-        register: pwd
+      register: pwd
     -name: printing the password
      ansible.builtin.debug:
         msg: "{{pwd}}"
