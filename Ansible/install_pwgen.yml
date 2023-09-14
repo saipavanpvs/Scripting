@@ -3,7 +3,7 @@
   become: True
   tasks:
     - name: register variable
-      ansible.builtn.shell: pwgen -N 1 -s 20
+      ansible.builtin.shell: pwgen -N 1 -s 20
       register: mypass
     - name: printing the password
       ansible.builtin.debug:
