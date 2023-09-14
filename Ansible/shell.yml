@@ -1,0 +1,6 @@
+- name: working on shell
+  hosts: all
+  tasks:
+    - name: running uptime
+      ansible.builtin.shell:
+        uptime
