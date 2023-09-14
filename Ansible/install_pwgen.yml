@@ -2,10 +2,6 @@
   hosts: all
   become: True
   tasks:
-    - name: Installing pwgen
-      ansible.builtin.package:
-        name: pwgen
-        state: present
     - name: register variable
       ansible.builtn.shell: pwgen -N 1 -s 20
       register: pwd
