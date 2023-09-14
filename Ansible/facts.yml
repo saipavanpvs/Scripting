@@ -6,7 +6,7 @@
         msg: is the value "{{ansible_os_family}}"
     - name: Priting the facts variables 2
       ansible.builtin.debug:
-        msg: value is "{{ansible_mounts.inode_available}}"
+        msg: value is "{{ansible_memfree_mb}}"
 
 #ansible -i inv all -e ansible_user=centos -e ansible_password=DevOps321 -m setup      
 #ansible_mounts
