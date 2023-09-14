@@ -10,6 +10,6 @@
       ansible.builtn.shell: pwgen -N 1 -s 20
       register: pwd
     - name: printing the password
-     ansible.builtin.debug:
+      ansible.builtin.debug:
         msg: "{{pwd}}"
        
