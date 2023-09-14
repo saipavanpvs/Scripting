@@ -6,7 +6,7 @@
         msg: is the value "{{ansible_os_family}}"
     - name: Priting the facts variables 2
       ansible.builtin.debug:
-        msg:value is "{{aansible_default_ipv4.macaddress}}"
+        msg:value is "{{ansible_default_ipv4.macaddress}}"
 
 #ansible -i inv all -e ansible_user=centos -e ansible_password=DevOps321 -m setup      
 #ansible_mounts
