@@ -1,0 +1,8 @@
+- name: Installing pwgen
+  hosts: all
+  tasks:
+    - name: Installing pwgen
+      ansible.builtin.package:
+        name: pwgen
+        state: present
+       
