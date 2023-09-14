@@ -1,5 +1,6 @@
 - name: Installing pwgen
   hosts: all
+  become: True
   tasks:
     - name: Installing pwgen
       ansible.builtin.package:
