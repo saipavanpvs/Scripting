@@ -7,5 +7,5 @@
       register: mypass
     - name: printing the password
       ansible.builtin.debug:
-        msg: "{{mypass}}"
+        msg: "{{mypass.stdout}}"
        
